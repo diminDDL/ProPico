@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "connector")(type "KiCad")(uri "${KIPRJMOD}/libs/connector")(options "")(descr ""))
+  (lib (name "W25Q16JVUXIQ_TR")(type "KiCad")(uri "${KIPRJMOD}/libs/W25Q16JVUXIQ_TR")(options "")(descr ""))
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/libs/RP2040/RP2040.pretty")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/libs/Raspberry_Pi_Pico/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "RPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/libs/Raspberry_Pi_Pico/RPi_Pico.pretty")(options "")(descr ""))
+)
