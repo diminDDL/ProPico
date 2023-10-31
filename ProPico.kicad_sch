@@ -754,68 +754,6 @@
         )
       )
     )
-    (symbol "Device:FerriteBead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "FB" (at -3.81 0.635 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "FerriteBead" (at 3.81 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "L ferrite bead inductor filter" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Ferrite bead" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "FerriteBead_0_1"
-        (polyline
-          (pts
-            (xy 0 -1.27)
-            (xy 0 -1.2192)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.27)
-            (xy 0 1.2954)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.7686 0.4064)
-            (xy -1.7018 2.2606)
-            (xy 2.7686 -0.3048)
-            (xy 1.6764 -2.159)
-            (xy -2.7686 0.4064)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "FerriteBead_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -1787,58 +1725,6 @@
         )
       )
     )
-    (symbol "power:+5VD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5VD" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5VD\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5VD_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+5VD_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5VD" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1951,9 +1837,6 @@
   (junction (at 35.56 104.775) (diameter 0) (color 0 0 0 0)
     (uuid 0a4bf8b4-2526-4701-bdfa-cc1c231d0142)
   )
-  (junction (at 57.15 151.13) (diameter 0) (color 0 0 0 0)
-    (uuid 0bea580c-ae43-4a3d-92f9-5fea035824c3)
-  )
   (junction (at 351.155 224.155) (diameter 0) (color 0 0 0 0)
     (uuid 0d55c28f-1e13-4998-a019-be25a0ce72d9)
   )
@@ -1981,11 +1864,14 @@
   (junction (at 232.41 67.945) (diameter 0) (color 0 0 0 0)
     (uuid 47a039ef-73f9-4bb3-a251-0db166c7bef0)
   )
-  (junction (at 59.055 121.285) (diameter 0) (color 0 0 0 0)
-    (uuid 4d187293-0ee0-49cd-9ebc-02249720b68a)
+  (junction (at 57.15 151.13) (diameter 0) (color 0 0 0 0)
+    (uuid 47dff6b9-0ee9-4728-b70b-6afaf136c6cb)
   )
   (junction (at 298.45 47.625) (diameter 0) (color 0 0 0 0)
     (uuid 5c693e77-0be0-4d22-a310-29c2b218a4a6)
+  )
+  (junction (at 32.385 70.485) (diameter 0) (color 0 0 0 0)
+    (uuid 5e31fe72-bd1f-4c2a-996a-5dbce57a1431)
   )
   (junction (at 351.155 211.455) (diameter 0) (color 0 0 0 0)
     (uuid 6248a3a8-b82e-4b89-bc60-08b05fe5eeac)
@@ -1998,9 +1884,6 @@
   )
   (junction (at 311.15 161.925) (diameter 0) (color 0 0 0 0)
     (uuid 6c982356-da59-498b-ac1f-c419d5a02ede)
-  )
-  (junction (at 25.4 151.13) (diameter 0) (color 0 0 0 0)
-    (uuid 6e389ece-518f-4595-8777-4ae5e9a2371e)
   )
   (junction (at 254 67.945) (diameter 0) (color 0 0 0 0)
     (uuid 712ea9f9-0f99-4e5b-a103-dc23577d6ce4)
@@ -2028,9 +1911,6 @@
   )
   (junction (at 287.02 59.055) (diameter 0) (color 0 0 0 0)
     (uuid 82f121e9-210c-42b9-8fae-bc1d8385cb8a)
-  )
-  (junction (at 59.055 128.905) (diameter 0) (color 0 0 0 0)
-    (uuid 832fb6f4-fa75-4e19-af49-8f9f884e1f3a)
   )
   (junction (at 303.53 159.385) (diameter 0) (color 0 0 0 0)
     (uuid 83c84367-7584-49ac-b60e-d017d3be5cbc)
@@ -2102,7 +1982,6 @@
     (uuid f9388e7f-9656-4545-bcac-51656181f517)
   )
 
-  (no_connect (at 24.765 69.85) (uuid 02324908-728a-47e0-b539-253a4af0f58f))
   (no_connect (at 47.625 62.23) (uuid df1f808d-209d-4260-b9de-5429762b946e))
   (no_connect (at 47.625 59.69) (uuid f5b5c359-f4ff-41fe-a037-85d458b3b0a0))
 
@@ -2139,10 +2018,6 @@
     (stroke (width 0) (type default))
     (uuid 0361fe86-5c52-4f2d-8130-0c1703e030c8)
   )
-  (wire (pts (xy 59.055 128.905) (xy 64.135 128.905))
-    (stroke (width 0) (type default))
-    (uuid 066f940c-2516-4f5a-8577-0c2e5f7cc353)
-  )
   (wire (pts (xy 251.46 80.645) (xy 251.46 67.945))
     (stroke (width 0) (type default))
     (uuid 0797350c-56db-4b68-a733-dc79476fa40d)
@@ -2150,6 +2025,10 @@
   (wire (pts (xy 349.25 239.395) (xy 364.49 239.395))
     (stroke (width 0) (type default))
     (uuid 07b8f514-695d-4061-bddb-28cdab3e8b72)
+  )
+  (wire (pts (xy 32.385 70.485) (xy 32.385 69.85))
+    (stroke (width 0) (type default))
+    (uuid 07f6e1d3-a1d9-4057-b8b5-a0ce8cc6d3e4)
   )
   (wire (pts (xy 309.88 59.055) (xy 298.45 59.055))
     (stroke (width 0) (type default))
@@ -2199,10 +2078,6 @@
     (stroke (width 0) (type default))
     (uuid 0dc2b92a-f060-470f-9213-4f0d7e4eefc7)
   )
-  (wire (pts (xy 57.15 159.385) (xy 57.15 160.02))
-    (stroke (width 0) (type default))
-    (uuid 0dfca97b-3dde-4e12-b9b0-275af762ea3a)
-  )
   (wire (pts (xy 220.98 48.895) (xy 220.98 47.625))
     (stroke (width 0) (type default))
     (uuid 0e10d2bf-d93a-40b7-a8b8-6ea2a79ff6aa)
@@ -2247,6 +2122,10 @@
   (wire (pts (xy 281.94 103.505) (xy 297.18 103.505))
     (stroke (width 0) (type default))
     (uuid 165ed644-db68-4daa-a75e-9cbf0bcbed6e)
+  )
+  (wire (pts (xy 32.385 71.12) (xy 32.385 70.485))
+    (stroke (width 0) (type default))
+    (uuid 174a79cd-c9a4-4bf2-8d76-4d97a9abee65)
   )
   (wire (pts (xy 54.61 215.9) (xy 54.61 217.17))
     (stroke (width 0) (type default))
@@ -2313,6 +2192,10 @@
     (stroke (width 0) (type default))
     (uuid 25b273cf-34ab-4a73-b361-813da24dbfc1)
   )
+  (wire (pts (xy 57.15 150.495) (xy 57.15 151.13))
+    (stroke (width 0) (type default))
+    (uuid 26f62733-685f-4436-8acf-0f92f0d8fda3)
+  )
   (wire (pts (xy 204.47 103.505) (xy 218.44 103.505))
     (stroke (width 0) (type default))
     (uuid 2875f85b-c33a-4a92-8faa-4a92a2788be4)
@@ -2341,10 +2224,6 @@
     (stroke (width 0) (type default))
     (uuid 2c174c0f-ba81-4359-a2a0-61725226a24b)
   )
-  (wire (pts (xy 57.15 150.495) (xy 57.15 151.13))
-    (stroke (width 0) (type default))
-    (uuid 2c9cd181-6877-414a-9026-3ded4a7df58e)
-  )
   (wire (pts (xy 281.94 98.425) (xy 297.18 98.425))
     (stroke (width 0) (type default))
     (uuid 2e32b1f2-459c-48cb-b272-c5d344b852e0)
@@ -2352,10 +2231,6 @@
   (wire (pts (xy 66.675 31.75) (xy 60.325 31.75))
     (stroke (width 0) (type default))
     (uuid 2e78f436-c6a6-4a96-9757-f594bff3651c)
-  )
-  (wire (pts (xy 57.15 151.13) (xy 45.085 151.13))
-    (stroke (width 0) (type default))
-    (uuid 2e9761b0-03f0-468a-b0ba-c0128c95b904)
   )
   (wire (pts (xy 344.17 47.625) (xy 344.17 48.895))
     (stroke (width 0) (type default))
@@ -2378,7 +2253,7 @@
     (stroke (width 0) (type default))
     (uuid 33736f2e-a84d-4065-ab36-59de6eb4a3b6)
   )
-  (wire (pts (xy 25.4 159.385) (xy 25.4 160.02))
+  (wire (pts (xy 50.8 159.385) (xy 50.8 160.02))
     (stroke (width 0) (type default))
     (uuid 36eb73a6-fc13-4f61-9453-9c60d0b90677)
   )
@@ -2397,6 +2272,10 @@
   (wire (pts (xy 349.25 224.155) (xy 351.155 224.155))
     (stroke (width 0) (type default))
     (uuid 3c52ad1c-0057-4e4b-9382-fae8f34ebcf1)
+  )
+  (wire (pts (xy 50.8 151.13) (xy 57.15 151.13))
+    (stroke (width 0) (type default))
+    (uuid 3da8eea9-3e7a-485f-985e-f6412db6b7a9)
   )
   (wire (pts (xy 209.55 57.785) (xy 209.55 59.055))
     (stroke (width 0) (type default))
@@ -2487,10 +2366,6 @@
     (stroke (width 0) (type default))
     (uuid 4f5a6afb-f688-4338-b6de-685872f1f7f8)
   )
-  (wire (pts (xy 25.4 151.765) (xy 25.4 151.13))
-    (stroke (width 0) (type default))
-    (uuid 4fe60a0a-ae98-405c-ad7a-e1c628db4a8f)
-  )
   (wire (pts (xy 344.17 59.055) (xy 344.17 60.325))
     (stroke (width 0) (type default))
     (uuid 505d0499-7155-4355-9739-307678502e25)
@@ -2506,6 +2381,10 @@
   (wire (pts (xy 281.94 90.805) (xy 293.37 90.805))
     (stroke (width 0) (type default))
     (uuid 52b64ab9-0136-498d-852d-b7e15b83be18)
+  )
+  (wire (pts (xy 50.8 151.13) (xy 50.8 151.765))
+    (stroke (width 0) (type default))
+    (uuid 534cd759-5ded-441c-a02c-08ef9add5915)
   )
   (wire (pts (xy 141.605 240.665) (xy 141.605 242.57))
     (stroke (width 0) (type default))
@@ -2567,10 +2446,6 @@
   (wire (pts (xy 59.055 254.635) (xy 74.295 254.635))
     (stroke (width 0) (type default))
     (uuid 5fd400a0-819d-4bae-b276-4422c17c61c3)
-  )
-  (wire (pts (xy 69.215 151.13) (xy 57.15 151.13))
-    (stroke (width 0) (type default))
-    (uuid 60b8aa47-775c-4bf1-bb4f-1d6c9ad591bf)
   )
   (wire (pts (xy 320.04 241.935) (xy 304.8 241.935))
     (stroke (width 0) (type default))
@@ -2700,10 +2575,6 @@
   (wire (pts (xy 281.94 169.545) (xy 297.18 169.545))
     (stroke (width 0) (type default))
     (uuid 7e42462a-1d8c-442d-bc2e-8425d3f8a6c5)
-  )
-  (wire (pts (xy 53.34 121.285) (xy 59.055 121.285))
-    (stroke (width 0) (type default))
-    (uuid 7e5fe75f-07ff-447f-83e4-1a7d1ce50607)
   )
   (wire (pts (xy 320.04 239.395) (xy 304.8 239.395))
     (stroke (width 0) (type default))
@@ -2838,10 +2709,6 @@
     (uuid a2e10981-2b69-4c8d-823e-89279ceb695a)
   )
 
-  (wire (pts (xy 59.055 121.285) (xy 64.135 121.285))
-    (stroke (width 0) (type default))
-    (uuid a34c811a-430a-4b54-9da8-32a831690879)
-  )
   (wire (pts (xy 47.625 36.83) (xy 64.77 36.83))
     (stroke (width 0) (type default))
     (uuid a46fc733-59f7-40b1-8a96-b012ab1b12ce)
@@ -3024,10 +2891,6 @@
     (stroke (width 0) (type default))
     (uuid c5461b98-b1f3-4c92-b1b3-07af43b5feaf)
   )
-  (wire (pts (xy 25.4 150.495) (xy 25.4 151.13))
-    (stroke (width 0) (type default))
-    (uuid c5e282d4-f107-4c04-a7d3-55c82ca54693)
-  )
   (wire (pts (xy 349.25 198.755) (xy 351.155 198.755))
     (stroke (width 0) (type default))
     (uuid c62b9ea9-090a-48c6-9968-d51eea650ce4)
@@ -3055,6 +2918,10 @@
   (wire (pts (xy 327.66 86.36) (xy 327.66 90.805))
     (stroke (width 0) (type default))
     (uuid cc168c68-484b-4298-a9f5-b2e9708f891c)
+  )
+  (wire (pts (xy 24.765 69.85) (xy 24.765 70.485))
+    (stroke (width 0) (type default))
+    (uuid cc4ae531-e1b2-4993-b7c8-8b7f85a70271)
   )
   (wire (pts (xy 76.835 158.75) (xy 76.835 160.02))
     (stroke (width 0) (type default))
@@ -3164,10 +3031,6 @@
     (stroke (width 0) (type default))
     (uuid ddf4e09e-d400-4d1b-abee-403bf364fa04)
   )
-  (wire (pts (xy 57.15 151.765) (xy 57.15 151.13))
-    (stroke (width 0) (type default))
-    (uuid de473cc6-5927-4d7f-b1d6-ea7b16b199f7)
-  )
   (wire (pts (xy 209.55 56.515) (xy 209.55 57.785))
     (stroke (width 0) (type default))
     (uuid df23a499-7d06-4d2d-bc97-c25591bc5ae1)
@@ -3200,9 +3063,13 @@
     (stroke (width 0) (type default))
     (uuid e6fb01af-8b51-48c1-91b1-85d247ed5daf)
   )
-  (wire (pts (xy 25.4 151.13) (xy 37.465 151.13))
+  (wire (pts (xy 24.765 70.485) (xy 32.385 70.485))
     (stroke (width 0) (type default))
-    (uuid efa9fdae-7b79-4d5c-ba7f-15c8e10b3cbd)
+    (uuid e984cc5b-b018-4b2d-9c9d-4cdb4ba9a106)
+  )
+  (wire (pts (xy 57.15 151.13) (xy 69.215 151.13))
+    (stroke (width 0) (type default))
+    (uuid eee5a66b-991f-4dbc-83ad-fe9ab865f564)
   )
   (wire (pts (xy 35.56 217.17) (xy 33.02 217.17))
     (stroke (width 0) (type default))
@@ -3248,10 +3115,6 @@
   (wire (pts (xy 121.92 252.095) (xy 125.095 252.095))
     (stroke (width 0) (type default))
     (uuid f9ad3cc5-c2b9-4a10-862d-b9ef2bdeca74)
-  )
-  (wire (pts (xy 53.34 128.905) (xy 59.055 128.905))
-    (stroke (width 0) (type default))
-    (uuid fa1289c3-f83c-4b3a-8ac8-40438962fdda)
   )
   (wire (pts (xy 300.99 88.265) (xy 319.405 88.265))
     (stroke (width 0) (type default))
@@ -3306,11 +3169,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1399e5b6-2525-4de0-afd9-6c4ba5a17b94)
   )
+  (text "AMS1117 also works" (at 53.975 161.925 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2725a884-f00e-4b21-827c-cb9fc6ef12ca)
+  )
   (text "or 24C04" (at 36.83 248.92 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3ec3d0b7-6697-49b6-9b90-9be19f21580b)
   )
-  (text "Make sure C10 is close to pin 44 of RP2040" (at 283.21 70.485 0)
+  (text "Make sure C12 is close to pin 44 of RP2040" (at 283.21 70.485 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 40dc78fc-5e89-41d0-a847-62ba411b16e1)
   )
@@ -3318,7 +3185,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 56bde610-1e69-4713-9692-561919f44a6c)
   )
-  (text "Make sure C8 is close to pin 45 of RP2040" (at 173.99 69.215 0)
+  (text "Make sure C10 is close to pin 45 of RP2040" (at 173.99 69.215 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 86e968cd-c5c2-4956-aa11-27849e93a105)
   )
@@ -3717,7 +3584,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C18") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -3726,7 +3593,7 @@
   (symbol (lib_id "Device:C") (at 96.52 165.735 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02c55e93-d469-46ac-a4fe-938dccc433ab)
-    (property "Reference" "C8" (at 100.33 164.4649 0)
+    (property "Reference" "C6" (at 100.33 164.4649 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 100.33 167.0049 0)
@@ -3738,12 +3605,12 @@
     (property "Datasheet" "~" (at 96.52 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fdab882d-2530-4096-b04e-471474d5ef0c))
-    (pin "2" (uuid ce73d9fa-94df-4a26-91a0-2efe3f75c302))
+    (pin "1" (uuid d9208bc7-74c0-4c5d-8b71-30b53fca4b99))
+    (pin "2" (uuid 0f8284cb-5778-4532-8c71-d6b0f562412c))
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C8") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3752,7 +3619,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 323.215 159.385 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03407269-b7fd-424d-a672-848da1378e8a)
-    (property "Reference" "TP4" (at 328.93 158.115 90)
+    (property "Reference" "TP6" (at 328.93 158.115 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GP24" (at 328.93 160.655 90)
@@ -3768,7 +3635,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "TP4") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -3798,19 +3665,19 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+5VD") (at 66.675 30.48 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 66.675 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 140984a3-b456-432d-a719-a0d88805fda0)
-    (property "Reference" "#PWR019" (at 66.675 34.29 0)
+    (uuid 10640d1b-a6fc-4c7c-9f6d-e9b97ab05861)
+    (property "Reference" "#PWR017" (at 66.675 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5VD" (at 66.675 25.4 0)
+    (property "Value" "+5V" (at 66.675 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 66.675 30.48 0)
@@ -3819,11 +3686,11 @@
     (property "Datasheet" "" (at 66.675 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b865075-b4fd-445d-ad91-06f005f418cb))
+    (pin "1" (uuid 55e97239-ae4b-48f5-9c29-cd4b17acebe1))
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -3832,7 +3699,7 @@
   (symbol (lib_id "power:+3V3") (at 33.02 245.745 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 146a4a24-7c6a-4558-8a30-c5589dcf2b7b)
-    (property "Reference" "#PWR05" (at 33.02 249.555 0)
+    (property "Reference" "#PWR03" (at 33.02 249.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 33.02 240.665 0)
@@ -3848,7 +3715,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3869,8 +3736,8 @@
     (property "Datasheet" "~" (at 275.59 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f81b202b-d395-4be5-8dd9-4ef70a2bc89a))
-    (pin "2" (uuid dafaa9ae-757c-44f2-9827-f351e63c0b12))
+    (pin "1" (uuid 83b68b5b-1411-4e62-a15e-ef953fa99682))
+    (pin "2" (uuid 792668e1-08fb-4767-8eac-4d69522e2354))
     (instances
       (project "rpcube"
         (path "/2fe78bb3-6c9b-4737-8793-454e476eabbd"
@@ -3879,32 +3746,32 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C13") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 25.4 160.02 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 50.8 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16f46ada-710a-4875-bbb2-4380b451851c)
-    (property "Reference" "#PWR02" (at 25.4 166.37 0)
+    (property "Reference" "#PWR011" (at 50.8 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 25.4 164.465 0)
+    (property "Value" "GND" (at 50.8 164.465 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 25.4 160.02 0)
+    (property "Footprint" "" (at 50.8 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 25.4 160.02 0)
+    (property "Datasheet" "" (at 50.8 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 09c9b4e8-9d4e-4a01-bc33-7a8b97d1760d))
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3939,7 +3806,7 @@
   (symbol (lib_id "power:GND") (at 141.605 269.875 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19151357-2a0c-4a26-9aa5-6d35606e012b)
-    (property "Reference" "#PWR029" (at 141.605 276.225 0)
+    (property "Reference" "#PWR027" (at 141.605 276.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 141.605 274.32 0)
@@ -3955,7 +3822,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3964,7 +3831,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 327.66 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b2a30d9-3646-48a8-9c41-53d500cb77a1)
-    (property "Reference" "TP2" (at 330.2 81.788 0)
+    (property "Reference" "TP7" (at 330.2 81.788 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D-" (at 330.2 84.328 0)
@@ -3980,7 +3847,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "TP2") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -4010,7 +3877,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -4019,7 +3886,7 @@
   (symbol (lib_id "power:+5V") (at 355.6 192.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d046ae8-b20b-4cd9-b8b5-9aa83910d5d9)
-    (property "Reference" "#PWR046" (at 355.6 196.215 0)
+    (property "Reference" "#PWR044" (at 355.6 196.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 355.6 187.325 0)
@@ -4035,7 +3902,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -4044,7 +3911,7 @@
   (symbol (lib_id "power:+3V3") (at 79.375 250.825 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 255bd68d-ef77-420b-9d9a-4dd5db3ce7b3)
-    (property "Reference" "#PWR023" (at 79.375 254.635 0)
+    (property "Reference" "#PWR021" (at 79.375 254.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 79.375 245.745 0)
@@ -4060,7 +3927,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4069,7 +3936,7 @@
   (symbol (lib_id "power:+3V3") (at 141.605 240.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27dd4306-473d-47e0-aafe-589f124e9964)
-    (property "Reference" "#PWR028" (at 141.605 244.475 0)
+    (property "Reference" "#PWR026" (at 141.605 244.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 141.605 235.585 0)
@@ -4085,7 +3952,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -4094,7 +3961,7 @@
   (symbol (lib_id "power:GND") (at 96.52 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 282511be-a106-404a-a2dd-92013336394c)
-    (property "Reference" "#PWR026" (at 96.52 176.53 0)
+    (property "Reference" "#PWR024" (at 96.52 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 174.625 0)
@@ -4110,7 +3977,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4174,7 +4041,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C16") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -4205,7 +4072,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C17") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -4235,7 +4102,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -4244,7 +4111,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 313.69 161.925 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 341d146e-b505-4c60-b857-4dd45a9040d7)
-    (property "Reference" "TP5" (at 318.77 160.655 90)
+    (property "Reference" "TP3" (at 318.77 160.655 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GP25" (at 318.77 163.195 90)
@@ -4260,7 +4127,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "TP5") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -4269,7 +4136,7 @@
   (symbol (lib_id "power:+5V") (at 57.15 150.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 351b1b7c-ee4f-4df4-8538-a605b59cb339)
-    (property "Reference" "#PWR013" (at 57.15 154.305 0)
+    (property "Reference" "#PWR012" (at 57.15 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 57.15 145.415 0)
@@ -4285,7 +4152,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4294,7 +4161,7 @@
   (symbol (lib_id "power:GND") (at 60.96 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3632dfbf-fd49-48ea-a5e5-291ee5fb820c)
-    (property "Reference" "#PWR018" (at 60.96 54.61 0)
+    (property "Reference" "#PWR016" (at 60.96 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 52.705 0)
@@ -4310,7 +4177,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4340,7 +4207,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -4398,7 +4265,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C12") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4407,7 +4274,7 @@
   (symbol (lib_id "power:+3V3") (at 96.52 150.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cf0dcc2-cb43-4e7c-92d3-16a7049ace6e)
-    (property "Reference" "#PWR025" (at 96.52 154.305 0)
+    (property "Reference" "#PWR023" (at 96.52 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 96.52 145.415 0)
@@ -4423,7 +4290,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4479,25 +4346,25 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 64.135 125.095 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 59.055 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 457793e5-bddd-44ba-ad5a-2cfecb588936)
-    (property "Reference" "C7" (at 67.945 123.8249 0)
+    (property "Reference" "C5" (at 62.865 123.8249 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 67.945 126.3649 0)
+    (property "Value" "100n" (at 62.865 126.3649 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 65.1002 128.905 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 60.0202 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 64.135 125.095 0)
+    (property "Datasheet" "~" (at 59.055 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0c7e9600-dd0a-4940-9590-f25376649573))
@@ -4505,32 +4372,32 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C7") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 32.385 69.85 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 32.385 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47fddb46-e449-4682-9657-14c157b12538)
-    (property "Reference" "#PWR03" (at 32.385 76.2 0)
+    (property "Reference" "#PWR01" (at 32.385 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 32.385 74.295 0)
+    (property "Value" "GND" (at 32.385 75.565 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 32.385 69.85 0)
+    (property "Footprint" "" (at 32.385 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 32.385 69.85 0)
+    (property "Datasheet" "" (at 32.385 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid db2e2217-0de5-481d-a168-63c495a10258))
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -4672,7 +4539,7 @@
   (symbol (lib_id "power:+3V3") (at 43.815 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b421857-d8a7-40a0-a7ea-be66ca4ab69c)
-    (property "Reference" "#PWR08" (at 43.815 87.63 0)
+    (property "Reference" "#PWR06" (at 43.815 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 43.815 79.375 0)
@@ -4688,7 +4555,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4697,7 +4564,7 @@
   (symbol (lib_id "power:VBUS") (at 351.155 192.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f1ad30d-d01b-4972-b14d-2a57984dea2a)
-    (property "Reference" "#PWR044" (at 351.155 196.215 0)
+    (property "Reference" "#PWR042" (at 351.155 196.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 351.155 186.69 0)
@@ -4713,7 +4580,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -4745,36 +4612,10 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 57.15 155.575 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5ab23c2a-1b03-4262-b7f4-ff3a254e0fd8)
-    (property "Reference" "C6" (at 53.34 154.3049 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "2.2u" (at 53.34 156.8449 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 56.1848 159.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 57.15 155.575 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fc55eb26-5abc-4f4d-bbb3-862c0010e80b))
-    (pin "2" (uuid 2738a83f-0690-4281-956e-610ff76a82c7))
-    (instances
-      (project "ProPico"
-        (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C6") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 121.92 263.525 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ce8f302-b29f-40ba-82bc-908b56f56dc6)
-    (property "Reference" "C9" (at 125.095 262.255 0)
+    (property "Reference" "C7" (at 125.095 262.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n C0G" (at 125.095 264.795 0)
@@ -4791,7 +4632,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C9") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4822,7 +4663,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C10") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4883,7 +4724,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 237.49 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 627679ec-e9c0-4d8b-b1fd-1ca8b220b662)
-    (property "Reference" "TP7" (at 237.49 57.15 0)
+    (property "Reference" "TP2" (at 237.49 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VREG" (at 237.49 59.69 0)
@@ -4899,7 +4740,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "TP7") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -4929,7 +4770,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4985,33 +4826,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR040") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 53.34 125.095 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 69b20a5f-59cf-428a-b454-3e45fd2742a0)
-    (property "Reference" "C5" (at 57.15 123.8249 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "2.2u" (at 57.15 126.3649 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 54.3052 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 53.34 125.095 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c0f2152e-2cc9-42f5-9a7a-a7cab1919c4f))
-    (pin "2" (uuid e3d9126c-7b33-40d0-aa79-5c536a46577c))
-    (instances
-      (project "ProPico"
-        (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C5") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -5064,7 +4879,7 @@
   (symbol (lib_id "power:GND") (at 59.055 131.445 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7303e5b9-4926-4af7-a9c4-3963e9ec2ff4)
-    (property "Reference" "#PWR016" (at 59.055 137.795 0)
+    (property "Reference" "#PWR014" (at 59.055 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.055 135.89 0)
@@ -5080,7 +4895,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -5120,7 +4935,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 34.925 104.775 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c00c935-4ac5-40ee-a08f-eb3a6c87af8e)
-    (property "Reference" "TP6" (at 26.67 103.505 90)
+    (property "Reference" "TP1" (at 26.67 103.505 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BOOTSEL" (at 26.67 106.045 90)
@@ -5136,7 +4951,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "TP6") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -5167,7 +4982,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C15") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -5241,7 +5056,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -5272,7 +5087,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C14") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5302,7 +5117,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -5342,7 +5157,7 @@
   (symbol (lib_id "power:GND") (at 121.92 269.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81f35751-439a-43f6-9061-2406bad8f1cd)
-    (property "Reference" "#PWR027" (at 121.92 275.59 0)
+    (property "Reference" "#PWR025" (at 121.92 275.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 273.685 0)
@@ -5358,7 +5173,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5414,7 +5229,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5444,7 +5259,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -5473,32 +5288,6 @@
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
           (reference "J2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:FerriteBead") (at 41.275 151.13 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9a1262af-34df-476d-b415-797e89b42ef5)
-    (property "Reference" "FB1" (at 41.2242 142.875 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100 @ 100MHz" (at 43.18 146.05 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 41.275 152.908 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 41.275 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4fa281de-a91c-4ea3-9a37-4a1fbaff288a))
-    (pin "2" (uuid d0760d66-14f1-431f-bfef-cb5af8070415))
-    (instances
-      (project "ProPico"
-        (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "FB1") (unit 1)
         )
       )
     )
@@ -5538,7 +5327,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 313.69 245.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c6f931b-0f46-43ca-adf6-8d3ae39bd88f)
-    (property "Reference" "TP1" (at 307.34 243.84 90)
+    (property "Reference" "TP4" (at 307.34 243.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GND" (at 307.34 246.38 90)
@@ -5554,7 +5343,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "TP1") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -5584,7 +5373,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -5656,7 +5445,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C11") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -5686,7 +5475,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -5695,7 +5484,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 319.405 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a83d6ed9-6539-4538-b6f3-ca14613e254b)
-    (property "Reference" "TP3" (at 321.31 81.788 0)
+    (property "Reference" "TP5" (at 321.31 81.788 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D+" (at 321.31 84.328 0)
@@ -5711,7 +5500,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "TP3") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -5741,7 +5530,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -5805,19 +5594,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 25.4 155.575 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 50.8 155.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5d0d791-9b42-4c22-bff8-11f9119be21d)
-    (property "Reference" "C1" (at 29.21 154.3049 0)
+    (property "Reference" "C4" (at 54.61 154.3049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2.2u" (at 29.21 156.8449 0)
+    (property "Value" "2.2u" (at 54.61 156.8449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 26.3652 159.385 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 51.7652 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 25.4 155.575 0)
+    (property "Datasheet" "~" (at 50.8 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9e95c5ed-82ae-48e1-84c9-ad286dbd9459))
@@ -5825,7 +5614,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C1") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -5922,7 +5711,7 @@
   (symbol (lib_id "power:GND") (at 35.56 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba9c664d-dbe6-4f14-897d-823239658a21)
-    (property "Reference" "#PWR07" (at 35.56 123.19 0)
+    (property "Reference" "#PWR05" (at 35.56 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.56 121.285 0)
@@ -5938,7 +5727,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -5947,7 +5736,7 @@
   (symbol (lib_id "power:VBUS") (at 50.165 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf196a9d-4dc8-4375-a146-e2db7761f2ee)
-    (property "Reference" "#PWR012" (at 50.165 34.29 0)
+    (property "Reference" "#PWR010" (at 50.165 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 50.165 24.765 0)
@@ -5963,7 +5752,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -5993,7 +5782,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -6002,7 +5791,7 @@
   (symbol (lib_id "power:GND") (at 76.835 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c22fc6f1-1b5e-4b6d-baa1-babfd1cab18d)
-    (property "Reference" "#PWR022" (at 76.835 166.37 0)
+    (property "Reference" "#PWR020" (at 76.835 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.835 164.465 0)
@@ -6018,7 +5807,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -6050,35 +5839,10 @@
     )
   )
 
-  (symbol (lib_id "power:+5VD") (at 25.4 150.495 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c7c5c4aa-e574-4e2d-996f-36f2c7ed2881)
-    (property "Reference" "#PWR01" (at 25.4 154.305 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5VD" (at 25.4 145.415 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 25.4 150.495 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 25.4 150.495 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid edc3db41-2764-42f4-b563-42e0143cc357))
-    (instances
-      (project "ProPico"
-        (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+3V3") (at 48.895 245.745 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8a7f423-ae72-484f-8eb6-d40fa0775acc)
-    (property "Reference" "#PWR09" (at 48.895 249.555 0)
+    (property "Reference" "#PWR07" (at 48.895 249.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 48.895 240.665 0)
@@ -6094,7 +5858,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -6124,7 +5888,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -6216,7 +5980,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -6225,7 +5989,7 @@
   (symbol (lib_id "power:+3V3") (at 67.945 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd583a6c-75bd-41b7-9e06-a1accfc7e1cf)
-    (property "Reference" "#PWR020" (at 67.945 90.17 0)
+    (property "Reference" "#PWR018" (at 67.945 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 67.945 81.915 0)
@@ -6241,7 +6005,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -6250,7 +6014,7 @@
   (symbol (lib_id "power:+3V3") (at 59.055 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cecc671a-c8d3-443a-a4fa-6e9f135c3607)
-    (property "Reference" "#PWR015" (at 59.055 123.19 0)
+    (property "Reference" "#PWR013" (at 59.055 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 59.055 114.935 0)
@@ -6266,32 +6030,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR015") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 57.15 160.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cf59301c-242d-4f2e-a8bc-6d0011fce721)
-    (property "Reference" "#PWR014" (at 57.15 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 57.15 164.465 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 57.15 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 57.15 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7fd7db82-0dd3-4907-b363-5978ca5dea3e))
-    (instances
-      (project "ProPico"
-        (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -6312,8 +6051,8 @@
     (property "Datasheet" "~" (at 39.37 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c66073a9-7bd7-4b2c-938b-079cf5242012))
-    (pin "2" (uuid 1ca513d1-c116-44d2-b788-a9a11736d8d5))
+    (pin "1" (uuid 9e8c43f9-01d2-4003-aefa-c30191fde260))
+    (pin "2" (uuid 8a4e6276-29de-45a4-9693-0532752970c5))
     (instances
       (project "rpcube"
         (path "/2fe78bb3-6c9b-4737-8793-454e476eabbd"
@@ -6322,7 +6061,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -6352,7 +6091,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -6408,7 +6147,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -6439,7 +6178,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C20") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -6501,7 +6240,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -6510,7 +6249,7 @@
   (symbol (lib_id "power:GND") (at 33.02 263.525 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e996c5e5-510a-428b-9af8-fce5e949e4a1)
-    (property "Reference" "#PWR06" (at 33.02 269.875 0)
+    (property "Reference" "#PWR04" (at 33.02 269.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 267.97 0)
@@ -6526,7 +6265,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -6535,7 +6274,7 @@
   (symbol (lib_id "power:GND") (at 67.945 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eaf85028-9483-4ea9-8fc4-16598a1d0e37)
-    (property "Reference" "#PWR021" (at 67.945 114.3 0)
+    (property "Reference" "#PWR019" (at 67.945 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.945 112.395 0)
@@ -6551,7 +6290,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -6582,7 +6321,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C19") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -6591,7 +6330,7 @@
   (symbol (lib_id "Device:C") (at 33.02 254.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1eea970-ccbf-4e3a-a8b0-f935770d72f6)
-    (property "Reference" "C2" (at 24.765 253.365 0)
+    (property "Reference" "C1" (at 24.765 253.365 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 24.765 255.905 0)
@@ -6608,7 +6347,7 @@
     (instances
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -6665,7 +6404,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -6696,7 +6435,7 @@
       )
       (project "ProPico"
         (path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-          (reference "C3") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
