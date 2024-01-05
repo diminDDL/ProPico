@@ -1,9 +1,11 @@
 # ProPico
 An RP2040 dev board improving on aspects of the pi pico.
 
+### ⚠️ This porject is still under development, reproduce at your own risk ⚠️
+While I have assembled several of these boards and they seem to work, there is still some verification to be done, so don't expect this to be a fully finished project just yet.
 ## Features
 - An LDO for power making the 3V3 supply much cleaner.
-- Larger flash sizes up to 16MB with binary indicators on the bottom so you remember which board has what.
+- Larger flash sizes up to 16MB (the higher capacities will likely require a different board revision due to the larger IC package) with binary indicators on the bottom so you remember which board has what.
 - USB-C for power and programming, includes CC resistors meaning it'll work with modern USB-C chargers/cables.
 - A reset button alongside the bootsel, allowing you to reboot into UF2 mode without having to unplug the board.
 - Extra GPIO broken out and used:
@@ -16,4 +18,4 @@ An RP2040 dev board improving on aspects of the pi pico.
 - RUN pin exposed next to the debug port.
 
 ## Pinout
-
+![ProPico pinout](https://github.com/diminDDL/ProPico/blob/main/outputs/pinout_diagram/pico-pinout_export.svg?sanitize=true)
