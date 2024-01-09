@@ -1,7 +1,7 @@
 # ProPico
 An RP2040 dev board improving on aspects of the pi pico.
 
-### ⚠️ This porject is still under development, reproduce at your own risk ⚠️
+### ⚠️ This project is still under development, reproduce at your own risk ⚠️
 While I have assembled several of these boards and they seem to work, there is still some verification to be done, so don't expect this to be a fully finished project just yet.
 ## Features
 - An LDO for power making the 3V3 supply much cleaner.
