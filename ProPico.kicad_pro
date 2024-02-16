@@ -60,7 +60,25 @@
           "width": 0.22
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|100170000|45107800|0efddfb1-2d90-413b-a47d-4e76e3abdd38|1a0d70b1-e025-46da-a59e-498afb9830cc",
+        "hole_clearance|100170000|45107800|0efddfb1-2d90-413b-a47d-4e76e3abdd38|ed23e889-f66d-4eb5-b2a2-6159e7f129ba",
+        "hole_clearance|105570000|45107800|5ce266b4-1b12-40fd-b2a2-7f5a2dbae650|7b08c614-9310-4fca-bf80-8414175bffc6",
+        "hole_clearance|105570000|45107800|5ce266b4-1b12-40fd-b2a2-7f5a2dbae650|98d596b5-3fc9-4ae7-a4a4-4d10ddfdefff",
+        "hole_clearance|105770000|45107800|5ce266b4-1b12-40fd-b2a2-7f5a2dbae650|523bfe95-c9a6-4bd0-a24d-20539a46366d",
+        "hole_clearance|105770000|45107800|5ce266b4-1b12-40fd-b2a2-7f5a2dbae650|5de1d9e2-0087-48ab-8dfd-3d0d2e37089a",
+        "hole_clearance|99970000|45107800|0efddfb1-2d90-413b-a47d-4e76e3abdd38|348a84c2-cb15-4727-af87-560037c163f3",
+        "hole_clearance|99970000|45107800|0efddfb1-2d90-413b-a47d-4e76e3abdd38|e03b2e94-0f87-4998-b7cc-058d7a138aa6",
+        "lib_footprint_issues|103166539|80770710|bea37e51-419b-4ecc-9227-cb1106cc1a72|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|102870000|42302800|b73faa4f-f3b2-45ec-ac24-32b0fcfe5923|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|96494600|43716300|f573c1fb-085b-49ae-b0de-86b1fb1b2e59|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|96980100|47802800|a1060c86-f08c-45b6-a14b-f4d712ac821b|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|97222600|59105800|00737e19-b443-4ed5-974f-fbc436c31055|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|99796600|74345800|906b3da1-71ab-48dc-9a3a-350aefb295f6|00000000-0000-0000-0000-000000000000",
+        "solder_mask_bridge|100444600|86779800|4a69132a-ea21-430f-8ee1-8456d40237ed|5bc119ad-dd29-4865-a4a4-e850f12d76c2",
+        "solder_mask_bridge|102344600|86029800|1a9c1027-1418-4045-a3d0-037e1c97d2cb|f4ef0d1e-ddc6-4340-a216-ee974e34ec98",
+        "unconnected_items|102209600|50695800|9c7ca939-e304-4d42-8412-ba436aab8832|998e926d-0e7e-4f2d-8da1-1bae06d36857"
+      ],
       "meta": {
         "version": 2
       },
